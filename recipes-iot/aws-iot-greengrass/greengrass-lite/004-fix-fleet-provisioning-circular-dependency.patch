@@ -18,10 +18,10 @@ The local-deployment service will start automatically when:
 Upstream-Status: Pending
 Signed-off-by: Amazon Q <q@amazon.com>
 
-Index: greengrass-lite-2.2.1/modules/fleet-provisioning/src/entry.c
+Index: greengrass-lite-2.2.2/modules/fleet-provisioning/src/entry.c
 ===================================================================
---- greengrass-lite-2.2.1.orig/modules/fleet-provisioning/src/entry.c
-+++ greengrass-lite-2.2.1/modules/fleet-provisioning/src/entry.c
+--- greengrass-lite-2.2.2.orig/modules/fleet-provisioning/src/entry.c
++++ greengrass-lite-2.2.2/modules/fleet-provisioning/src/entry.c
 @@ -277,28 +277,8 @@ static GglError cleanup_actions(void) {
          return ret;
      }

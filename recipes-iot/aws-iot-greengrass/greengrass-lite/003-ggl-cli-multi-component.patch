@@ -42,10 +42,10 @@ component cleanup conflicts and improves overall deployment reliability.
 Upstream-Status: Submitted [https://github.com/aws-greengrass/aws-greengrass-lite/pull/918]
 Signed-off-by: Yocto Build System <noreply@yoctoproject.org>
 
-Index: greengrass-lite-2.2.1/modules/ggl-cli/bin/ggl-cli.c
+Index: greengrass-lite-2.2.2/modules/ggl-cli/bin/ggl-cli.c
 ===================================================================
---- greengrass-lite-2.2.1.orig/modules/ggl-cli/bin/ggl-cli.c
-+++ greengrass-lite-2.2.1/modules/ggl-cli/bin/ggl-cli.c
+--- greengrass-lite-2.2.2.orig/modules/ggl-cli/bin/ggl-cli.c
++++ greengrass-lite-2.2.2/modules/ggl-cli/bin/ggl-cli.c
 @@ -21,18 +21,30 @@
  #include <stdio.h>
  #include <stdlib.h>
