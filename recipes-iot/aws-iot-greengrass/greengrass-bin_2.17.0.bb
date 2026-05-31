@@ -29,7 +29,7 @@ SRC_URI = "\
     file://config.yaml.template \
     "
 
-SRC_URI[sha256sum] = "f07742c76eca868617127b5c6c9028e41c45c2b4ec25dd0db6f3b40ef7638b4e"
+SRC_URI[sha256sum] = "7bfc1774d30b791b74fd67b143ed4eb4f04fa2f624f422b5899aeca84cfde1af"
 UPSTREAM_CHECK_REGEX ?= "releases/tag/v?(?P<pver>\d+(\.\d+)+)"
 
 UPSTREAM_CHECK_URI = "https://github.com/aws-greengrass/aws-greengrass-nucleus/tags"
